@@ -1,5 +1,43 @@
 # Devlogs
 
+> July 26, 2022
+
+1. Added new animations to player scene
+   - animations
+     - AttackDown
+     - AttackLeft
+     - AttackRight
+     - AttackUp
+     - RollDown
+     - RollLeft
+     - RollRight
+     - RollUp
+2. Added custom input map keys
+   - move_down
+   - move_left
+   - move_right
+   - move_up
+3. Added player movements
+4. Added player movement animation
+   - AnimationNodeStateMachine
+     - Idle
+     - Run
+5. Added world scene
+6. Added bush scene
+7. Updated Ysort on the world scene
+8. Added background sprite on world scene
+9. Added dirt path tile map
+   - Autotile
+     - step x = 16 y = 16
+     - selected tiles subtile size x = 16 y = 16
+     - autotile bitmask = 3x3 minimal
+10. Added dirt cliff tile map
+   - Autotile
+     - step x = 32 y = 32
+     - selected tiles subtile size x = 32 y = 32
+     - autotile bitmask = 3x3 minimal
+
+
 > July 25, 2022
 
 1. Created github godot-rpg repository
