@@ -32,10 +32,10 @@
      - selected tiles subtile size x = 16 y = 16
      - autotile bitmask = 3x3 minimal
 10. Added dirt cliff tile map
-   - Autotile
-     - step x = 32 y = 32
-     - selected tiles subtile size x = 32 y = 32
-     - autotile bitmask = 3x3 minimal
+    - Autotile
+      - step x = 32 y = 32
+      - selected tiles subtile size x = 32 y = 32
+      - autotile bitmask = 3x3 minimal
 
 
 > July 25, 2022
