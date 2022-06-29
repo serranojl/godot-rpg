@@ -1,6 +1,26 @@
 # Devlogs
 
-> July 26, 2022
+> June 29. 2022
+
+1. Added player attack animation
+   - AnimationNodeStateMachine
+     - Attack
+2. Added player attack script
+3. Added track method to player attack animations (Key: attack_animation_finished())
+   - Animations
+     - AttackDown
+     - AttakLeft
+     - AttackRight
+     - AttackUp
+4. Added Grass Scene
+   - instance a GrassEffect scene
+     - add grassEffect instance to world tree scene
+     - set grassEffect global position to grass position
+5. Added GrassEffect Scene
+   - AnimatedSprite
+     - add animation_finished() signal to GrassEffect
+
+> June 26, 2022
 
 1. Added new animations to player scene
    - animations
@@ -38,7 +58,7 @@
       - autotile bitmask = 3x3 minimal
 
 
-> July 25, 2022
+> June 25, 2022
 
 1. Created github godot-rpg repository
 2. Setup github account on windows pc
