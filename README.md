@@ -1,6 +1,35 @@
 # Devlogs
 
-> June 29. 2022
+> Junde 30, 2022
+
+1. Added hurtbox scene
+2. Added hitbox scene
+3. Added 2d physics to project settings
+  - Layers
+    - World
+    - Player
+    - PlayerHurtbox
+    - EnemyHurtbox
+4. Added hurtbox to grass scene
+5. Updated hurtbox collison to grass
+   - Layer
+     - EnemyHurtbox
+6. Added hitbox to player scene
+7. Updated player collision
+   - Layer
+     - Player
+   - Mask
+     - World
+8. Updated collision to player hitbox
+   - Mask
+     - EnemyHurtbox
+9. Updated collision to world scene
+   - Layer
+     - World
+10. Updated Player attack on grass script
+
+
+> June 29, 2022
 
 1. Added player attack animation
    - AnimationNodeStateMachine
