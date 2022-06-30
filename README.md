@@ -5,11 +5,11 @@
 1. Added hurtbox scene
 2. Added hitbox scene
 3. Added 2d physics to project settings
-  - Layers
-    - World
-    - Player
-    - PlayerHurtbox
-    - EnemyHurtbox
+   - Layers
+     - World
+     - Player
+     - PlayerHurtbox
+     - EnemyHurtbox
 4. Added hurtbox to grass scene
 5. Updated hurtbox collison to grass
    - Layer
